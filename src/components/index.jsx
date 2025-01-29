@@ -91,6 +91,11 @@ const[searcherr,setSearcherr]=useState("");
             "https://plus.unsplash.com/premium_photo-1671127303910-754ac2224c7a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c25vdyUyMGZhbGx8ZW58MHx8MHx8fDA%3D"
           );
           break;
+           case "Smoke":
+          setWeatherImg(
+         "https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          );
+          break;
         default:
           setWeatherImg(
             "https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg"
