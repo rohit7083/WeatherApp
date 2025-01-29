@@ -100,7 +100,7 @@ const[searcherr,setSearcherr]=useState("");
           setWeatherImg(
 "https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&cs=tinysrgb&w=600"
           );
-          
+      break;    
         default:
           setWeatherImg(
             "https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg"
