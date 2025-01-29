@@ -76,6 +76,11 @@ const[searcherr,setSearcherr]=useState("");
             "https://images.pexels.com/photos/2529973/pexels-photo-2529973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           );
           break;
+           case "Rain":
+          setWeatherImg(
+            "https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg"
+          );
+          break;
         case "Clear":
           setWeatherImg(
             "https://images.pexels.com/photos/912364/pexels-photo-912364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
