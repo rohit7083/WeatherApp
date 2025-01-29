@@ -96,6 +96,11 @@ const[searcherr,setSearcherr]=useState("");
          "https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           );
           break;
+  case "Drizzle":
+          setWeatherImg(
+"https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&cs=tinysrgb&w=600"
+          );
+          
         default:
           setWeatherImg(
             "https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg"
